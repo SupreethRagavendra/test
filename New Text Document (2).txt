@@ -1,0 +1,18 @@
+import java.applet.*;
+import java.awt.*;
+import.java.awt.event.*;
+<applet code= "DemoButton" width=600 height=600></applet>
+public class DemoButton extends Applet
+{
+public void init()
+{
+Button b1=new Button("red");
+Button b2=new Button("Blue");
+Button b3=new Button("Green");
+Button b4=new Button("Yellow");
+
+b1.add ActionListener(this);
+b2.add ActionListener(this);
+b3.add ActionListener(this);
+b4.add ActionListener(this);
+}
